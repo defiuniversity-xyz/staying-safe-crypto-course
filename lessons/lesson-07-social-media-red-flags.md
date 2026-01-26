@@ -7,6 +7,7 @@ description: "Recognizing scam patterns on Twitter, Discord, Telegram, and other
 ---
 
 # Social Media Red Flags
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_07/staying-safe-crypto_07_header.png)
 
 

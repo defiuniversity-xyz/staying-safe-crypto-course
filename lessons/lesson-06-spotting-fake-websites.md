@@ -7,6 +7,7 @@ description: "How to verify you're on the real site before connecting your walle
 ---
 
 # Spotting Fake Websites
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_06/staying-safe-crypto_06_header.png)
 
 
@@ -53,6 +54,7 @@ You cannot tell a fake site from a real one by looking at the page. You must ver
 
 
 ![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_06/staying-safe-crypto_06_infographic.png)
+
 ### Before Every Wallet Connection
 
 **Step 1: Check the full URL**

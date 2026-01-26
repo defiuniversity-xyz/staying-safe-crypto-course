@@ -7,6 +7,7 @@ description: "Understanding healthy financial boundaries with cryptocurrency"
 ---
 
 # Only Invest What You Can Lose
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_09/staying-safe-crypto_09_header.png)
 
 

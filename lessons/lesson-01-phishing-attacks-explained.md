@@ -7,6 +7,7 @@ description: "How scammers create fake websites and messages to steal your crypt
 ---
 
 # Phishing Attacks Explained
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_01/staying-safe-crypto_01_header.png)
 
 
@@ -18,6 +19,7 @@ description: "How scammers create fake websites and messages to steal your crypt
 
 
 ![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_01/staying-safe-crypto_01_inline_analogy.png)
+
 Imagine walking through a mall and seeing a Nike store. The logo looks right. The displays look official. You walk in, try on shoes, and hand over your credit card.
 
 But it wasn't really Nike. It was a perfect copy designed to steal your payment information.
@@ -30,6 +32,7 @@ Phishing works the same way online. Scammers create websites that look identical
 
 
 ![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_01/staying-safe-crypto_01_infographic.png)
+
 ### Fake Websites
 Scammers copy legitimate sites pixel-by-pixel but host them at slightly different URLs:
 - `metamask.io` (real) vs. `metamask-wallet.io` (fake)

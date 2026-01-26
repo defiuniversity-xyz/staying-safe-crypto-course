@@ -7,6 +7,7 @@ description: "How 'send X, receive 2X' scams work and why they never deliver"
 ---
 
 # The Doubling Scam
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_02/staying-safe-crypto_02_header.png)
 
 
@@ -30,6 +31,7 @@ It's the same scam, just dressed in crypto clothing. Nobody gives away free mone
 
 
 ![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_02/staying-safe-crypto_02_infographic.png)
+
 **The Setup:**
 Scammers create legitimate-looking giveaway promotions:
 - Hacked celebrity Twitter accounts

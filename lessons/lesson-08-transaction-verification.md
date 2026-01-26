@@ -7,6 +7,7 @@ description: "How to verify what you're actually approving before signing"
 ---
 
 # Transaction Verification
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_08/staying-safe-crypto_08_header.png)
 
 

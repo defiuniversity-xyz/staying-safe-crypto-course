@@ -7,6 +7,7 @@ description: "How scammers impersonate customer support to steal your crypto"
 ---
 
 # Fake Support Scams
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_04/staying-safe-crypto_04_header.png)
 
 

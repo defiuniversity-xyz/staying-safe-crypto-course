@@ -7,6 +7,7 @@ description: "How to research cryptocurrency projects before investing"
 ---
 
 # Research Before Buying (DYOR)
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_10/staying-safe-crypto_10_header.png)
 
 

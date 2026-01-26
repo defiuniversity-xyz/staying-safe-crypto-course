@@ -7,6 +7,7 @@ description: "Best practices for protecting your most critical secret"
 ---
 
 # Seed Phrase Security
+
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_05/staying-safe-crypto_05_header.png)
 
 
@@ -18,6 +19,7 @@ description: "Best practices for protecting your most critical secret"
 
 
 ![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_05/staying-safe-crypto_05_inline_analogy.png)
+
 Imagine a safety deposit box that holds:
 - All your money
 - All your valuables
@@ -35,6 +37,7 @@ That's your crypto seed phrase. Treat it accordingly.
 
 
 ![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_05/staying-safe-crypto_05_infographic.png)
+
 ### NEVER share your seed phrase
 - Not with customer support
 - Not with friends helping you
