@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Flag Spotter | DeFi University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        const firebaseConfig = { apiKey: "AIzaSyDuGdDF6jYPcZbQTpbGZPwnl3Qynr-LMWc", authDomain: "defi-university-prod.firebaseapp.com", projectId: "defi-university-prod", storageBucket: "defi-university-prod.firebasestorage.app", messagingSenderId: "309871336262", appId: "1:309871336262:web:d2dc4be5729ac1d5a6a347" };
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        let userToken = null; let tracked = false;
+        onAuthStateChanged(auth, async (user) => {
+            if (user) { userToken = await user.getIdToken(); document.getElementById('login-prompt').classList.add('hidden'); document.getElementById('loading-state').classList.add('hidden'); document.getElementById('tool-container').classList.remove('hidden'); }
+            else { document.getElementById('loading-state').classList.add('hidden'); document.getElementById('login-prompt').classList.remove('hidden'); const currentUrl = encodeURIComponent(window.location.href); document.querySelector('#login-prompt a').href = `/login.html?redirect=${currentUrl}`; }
+        });
+        window.trackInteraction = async function() { if (!tracked && userToken) { tracked = true; try { await fetch('https://api.defiuniversity.xyz/api/progress/interaction', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${userToken}` }, body: JSON.stringify({ courseId: 'staying-safe-crypto', interactionId: 'red-flag-spotter', type: 'trainer' }) }); document.getElementById('points-badge').classList.remove('hidden'); setTimeout(() => document.getElementById('points-badge').classList.add('hidden'), 2500); } catch (e) { tracked = false; } } };
+    </script>
+    <style>body { font-family: 'Inter', sans-serif; } h1, h2, h3, .brand-font { font-family: 'Space Grotesk', sans-serif; }</style>
+</head>
+<body class="bg-white text-neutral-900 min-h-screen p-4 md:p-8">
+    <div id="loading-state" class="flex items-center justify-center min-h-[400px]"><div class="text-center"><div class="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div><p class="text-neutral-500">Loading...</p></div></div>
+    <div id="login-prompt" class="hidden max-w-md mx-auto text-center py-12"><div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-blue-600"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div><h2 class="text-xl font-semibold mb-2 brand-font">Sign in Required</h2><p class="text-neutral-500 mb-6">Please sign in to use this tool.</p><a href="/login.html" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold">Sign In</a></div>
+    
+    <div id="tool-container" class="hidden max-w-2xl mx-auto">
+        <div id="points-badge" class="hidden fixed top-4 right-4 bg-green-50 border border-green-200 text-green-600 px-4 py-2 rounded-full text-sm font-semibold z-50">+25 points earned!</div>
+        <div class="text-center mb-8"><h1 class="text-2xl md:text-3xl font-semibold brand-font mb-2">Red Flag Spotter</h1><p class="text-neutral-500">Identify red flags in crypto projects</p></div>
+        
+        <div class="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm space-y-6">
+            <p class="text-sm text-neutral-600">Review this crypto project description and identify all the red flags:</p>
+            
+            <div id="project" class="bg-neutral-50 border border-neutral-200 rounded-lg p-4">
+                <h3 class="font-bold text-lg mb-2">🚀 MoonRocket Token (MOON)</h3>
+                <p class="text-sm mb-3">"MOON is the next 1000x gem! Our anonymous team has created a revolutionary token that guarantees 500% APY forever. We're launching in 2 hours - don't miss out! Celebrity endorsement from major influencer. No audit needed - our code is perfect. Send ETH to this address to participate in our exclusive private sale!"</p>
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                    <div>Team: Anonymous</div>
+                    <div>Audit: None</div>
+                    <div>TVL: $0 (launching soon)</div>
+                    <div>Token: 90% team allocation</div>
+                </div>
+            </div>
+            
+            <div class="space-y-2">
+                <p class="font-medium text-sm">Click all red flags you can identify:</p>
+                <div id="flags" class="flex flex-wrap gap-2"></div>
+            </div>
+            
+            <div id="result" class="hidden">
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                    <p class="font-medium text-green-700 mb-2">Great job! You found <span id="found-count">0</span> of <span id="total-count">0</span> red flags.</p>
+                </div>
+                <div id="explanation" class="space-y-2"></div>
+                <button onclick="reset()" class="w-full mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const redFlags = [
+            { id: 1, text: '"1000x gem"', isFlag: true, explain: 'Promises of extreme returns are unrealistic and a classic scam tactic.' },
+            { id: 2, text: 'Anonymous team', isFlag: true, explain: 'Anonymous teams can disappear without accountability.' },
+            { id: 3, text: '"Guarantees 500% APY"', isFlag: true, explain: 'No yield can be guaranteed, especially such high rates.' },
+            { id: 4, text: '"Launching in 2 hours"', isFlag: true, explain: 'Artificial urgency prevents you from doing proper research.' },
+            { id: 5, text: '"Don\'t miss out"', isFlag: true, explain: 'FOMO tactics are manipulation. Real opportunities don\'t pressure you.' },
+            { id: 6, text: 'Celebrity endorsement', isFlag: true, explain: 'Paid promotions and fake endorsements are common in scams.' },
+            { id: 7, text: '"No audit needed"', isFlag: true, explain: 'Legitimate projects get audited. Avoiding audits hides vulnerabilities.' },
+            { id: 8, text: '"Send ETH to address"', isFlag: true, explain: 'Asking to send crypto directly is a massive red flag. Use official platforms.' },
+            { id: 9, text: '90% team allocation', isFlag: true, explain: 'When the team holds most tokens, they can dump on investors.' },
+            { id: 10, text: 'No TVL / New launch', isFlag: false, explain: 'New projects do start somewhere, but combined with other flags it\'s risky.' }
+        ];
+        
+        let selected = new Set();
+        let revealed = false;
+        
+        function render() {
+            document.getElementById('flags').innerHTML = redFlags.map(f => `
+                <button onclick="toggleFlag(${f.id})" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    revealed 
+                        ? (f.isFlag ? 'bg-red-100 text-red-700 border border-red-300' : 'bg-neutral-100 text-neutral-500')
+                        : (selected.has(f.id) ? 'bg-red-500 text-white' : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200')
+                }" ${revealed ? 'disabled' : ''}>
+                    ${revealed && f.isFlag ? '🚩 ' : ''}${f.text}
+                </button>
+            `).join('');
+        }
+        
+        function toggleFlag(id) {
+            if (revealed) return;
+            if (selected.has(id)) selected.delete(id);
+            else selected.add(id);
+            render();
+            
+            if (selected.size >= 5) checkAnswers();
+        }
+        
+        function checkAnswers() {
+            revealed = true;
+            const actualFlags = redFlags.filter(f => f.isFlag);
+            const correctSelections = actualFlags.filter(f => selected.has(f.id));
+            
+            document.getElementById('found-count').textContent = correctSelections.length;
+            document.getElementById('total-count').textContent = actualFlags.length;
+            
+            document.getElementById('explanation').innerHTML = redFlags.filter(f => f.isFlag).map(f => `
+                <div class="bg-red-50 border border-red-200 rounded-lg p-3 text-sm">
+                    <span class="font-medium text-red-700">🚩 ${f.text}</span>
+                    <p class="text-red-600 text-xs mt-1">${f.explain}</p>
+                </div>
+            `).join('');
+            
+            document.getElementById('result').classList.remove('hidden');
+            render();
+            window.trackInteraction();
+        }
+        
+        function reset() {
+            selected = new Set();
+            revealed = false;
+            document.getElementById('result').classList.add('hidden');
+            render();
+        }
+        
+        render();
+    </script>
+</body>
+</html>

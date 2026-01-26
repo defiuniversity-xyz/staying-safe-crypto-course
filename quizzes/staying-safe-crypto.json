@@ -1,0 +1,579 @@
+{
+  "courseId": "staying-safe-crypto",
+  "courseName": "Staying Safe in Crypto",
+  "modules": [
+    {
+      "moduleId": "module-01",
+      "moduleNumber": 1,
+      "title": "Common Scams & How to Avoid Them",
+      "description": "Recognizing phishing, fake sites, and too-good-to-be-true offers",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m1-q1",
+          "question": "What is a 'phishing' attack in crypto?",
+          "options": [
+            {"id": "a", "text": "A type of cryptocurrency"},
+            {"id": "b", "text": "A fake website, email, or message designed to trick you into revealing passwords or seed phrases"},
+            {"id": "c", "text": "A type of fishing game that pays crypto"},
+            {"id": "d", "text": "A legitimate security check"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Phishing tricks you into giving up sensitive information. Scammers create fake versions of real websites, send deceptive emails, or impersonate support staff. They want your seed phrase, private key, or login credentials."
+        },
+        {
+          "id": "m1-q2",
+          "question": "You receive a DM on social media from 'Coinbase Support' asking for your password to fix an account issue. What should you do?",
+          "options": [
+            {"id": "a", "text": "Provide it - they're trying to help"},
+            {"id": "b", "text": "Ignore and block - real companies never ask for passwords via DM"},
+            {"id": "c", "text": "Give them a fake password to test them"},
+            {"id": "d", "text": "Ask them to prove they're real first"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Legitimate companies will NEVER ask for your password or seed phrase through social media, email, or chat. This is always a scam. Real support happens through official channels and never requires sharing credentials."
+        },
+        {
+          "id": "m1-q3",
+          "question": "How do scammers create fake websites that look identical to real crypto sites?",
+          "options": [
+            {"id": "a", "text": "They can't - all fake sites look obviously fake"},
+            {"id": "b", "text": "They copy the design and use similar domain names with small differences like 'coinbase-login.com' instead of 'coinbase.com'"},
+            {"id": "c", "text": "They hack the real websites"},
+            {"id": "d", "text": "The government creates them as tests"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Scammers copy real sites exactly but use slightly different URLs: extra letters, hyphens, different domains (.io vs .com). 'metamask-wallet.io' looks like MetaMask but isn't. Always check the URL carefully and use bookmarks."
+        },
+        {
+          "id": "m1-q4",
+          "question": "A YouTube video promises to double any Bitcoin you send to a certain address. What is this?",
+          "options": [
+            {"id": "a", "text": "A legitimate giveaway"},
+            {"id": "b", "text": "A common 'doubling scam' - you send crypto and receive nothing back"},
+            {"id": "c", "text": "A new DeFi opportunity"},
+            {"id": "d", "text": "A government program"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "No one will double your crypto for free. These 'giveaway' scams use hacked celebrity accounts or fake livestreams. You send crypto, they keep it. Remember: if it sounds too good to be true, it is."
+        },
+        {
+          "id": "m1-q5",
+          "question": "What is a 'rug pull' in crypto?",
+          "options": [
+            {"id": "a", "text": "A type of secure transaction"},
+            {"id": "b", "text": "When project creators disappear with investors' money after building hype"},
+            {"id": "c", "text": "A market correction"},
+            {"id": "d", "text": "A feature of decentralized exchanges"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Rug pulls happen when scammers create hype for a token or project, people invest, then the creators drain the funds and vanish. No product, no team, just stolen money. Common in new, unverified tokens."
+        },
+        {
+          "id": "m1-q6",
+          "question": "Someone offers you guaranteed 100% monthly returns on your crypto investment. What's the most likely reality?",
+          "options": [
+            {"id": "a", "text": "It's a great opportunity you should take"},
+            {"id": "b", "text": "It's almost certainly a Ponzi scheme or scam - such returns aren't sustainable"},
+            {"id": "c", "text": "It's normal in crypto"},
+            {"id": "d", "text": "It's backed by the government"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Guaranteed high returns are a red flag for Ponzi schemes, which pay early investors with new investors' money until collapse. No legitimate investment guarantees 100% monthly returns. Sustainable returns are much lower."
+        },
+        {
+          "id": "m1-q7",
+          "question": "What is a 'romance scam' or 'pig butchering' in crypto?",
+          "options": [
+            {"id": "a", "text": "A dating app that accepts crypto"},
+            {"id": "b", "text": "Building a fake romantic relationship to manipulate someone into investing in fake platforms"},
+            {"id": "c", "text": "A type of charitable organization"},
+            {"id": "d", "text": "A legitimate investment community"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Scammers build trust over weeks or months, often through dating apps, then 'help' victims invest in fake crypto platforms. Victims see fake profits, invest more, then can't withdraw. The 'relationship' and platform are both fake."
+        },
+        {
+          "id": "m1-q8",
+          "question": "You see a new token being heavily promoted by influencers promising 1000x gains. What should you consider?",
+          "options": [
+            {"id": "a", "text": "Buy immediately before it goes up"},
+            {"id": "b", "text": "Influencers are often paid to promote tokens, and may sell right after (pump and dump)"},
+            {"id": "c", "text": "All influencer recommendations are thoroughly vetted"},
+            {"id": "d", "text": "1000x gains are common"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Many influencers are paid to promote tokens they don't actually believe in. They buy early, promote heavily, then sell when the price rises (dumping on their followers). Always do your own research beyond social media hype."
+        },
+        {
+          "id": "m1-q9",
+          "question": "What is a 'fake airdrop' scam?",
+          "options": [
+            {"id": "a", "text": "Receiving free tokens from legitimate projects"},
+            {"id": "b", "text": "Scammers send you tokens that, when interacted with, drain your wallet or lead to phishing sites"},
+            {"id": "c", "text": "A military supply drop of crypto"},
+            {"id": "d", "text": "Tokens that arrive late"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Scam airdrops appear in your wallet unexpectedly. When you try to sell or interact with them, malicious smart contracts can steal your funds. Or they lead to phishing sites. Don't interact with unexpected tokens."
+        },
+        {
+          "id": "m1-q10",
+          "question": "How do 'impersonation scams' work on social media?",
+          "options": [
+            {"id": "a", "text": "Scammers create fake accounts mimicking celebrities or companies to trick you"},
+            {"id": "b", "text": "Real celebrities reach out to random users"},
+            {"id": "c", "text": "Social media verifies all crypto accounts"},
+            {"id": "d", "text": "They don't exist on major platforms"}
+          ],
+          "correctAnswer": "a",
+          "explanation": "Scammers create accounts with similar names and profile pictures to real people or companies. They might say 'Elon Musk' is giving away Bitcoin. Real celebrities don't randomly DM people asking them to send crypto."
+        },
+        {
+          "id": "m1-q11",
+          "question": "You receive an email saying your exchange account will be closed unless you click a link and verify your identity. What should you do?",
+          "options": [
+            {"id": "a", "text": "Click immediately - you don't want to lose your account"},
+            {"id": "b", "text": "Don't click. Go directly to the exchange website by typing the URL yourself to check your account"},
+            {"id": "c", "text": "Reply to the email asking for more information"},
+            {"id": "d", "text": "Forward it to friends for advice"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Urgency is a scam tactic. Never click links in suspicious emails. Instead, manually navigate to the real website (type it yourself or use a saved bookmark) and check your account there. Real issues will appear in your account."
+        },
+        {
+          "id": "m1-q12",
+          "question": "What is 'clipboard hijacking' malware?",
+          "options": [
+            {"id": "a", "text": "Malware that steals your photos"},
+            {"id": "b", "text": "Malware that replaces copied wallet addresses with the attacker's address"},
+            {"id": "c", "text": "A type of keyboard"},
+            {"id": "d", "text": "Software that organizes your clipboard history"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "You copy a legitimate address, but malware secretly replaces it with the scammer's address. You paste and send, and your crypto goes to them. Always visually verify the full address before confirming any transaction."
+        },
+        {
+          "id": "m1-q13",
+          "question": "A website asks you to connect your wallet and 'approve' access. What's the risk?",
+          "options": [
+            {"id": "a", "text": "No risk - approvals are always safe"},
+            {"id": "b", "text": "Malicious approvals can give the site permission to drain your wallet"},
+            {"id": "c", "text": "It just shows your balance"},
+            {"id": "d", "text": "Approvals expire immediately"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "When you approve a smart contract to spend your tokens, you're giving it permission. Malicious contracts can use this permission to steal your tokens. Only approve contracts you trust, and consider revoking old approvals."
+        },
+        {
+          "id": "m1-q14",
+          "question": "What's the safest response if you're unsure whether something is a scam?",
+          "options": [
+            {"id": "a", "text": "Take a risk - you might miss out"},
+            {"id": "b", "text": "When in doubt, don't. Research more, ask trusted sources, or simply walk away"},
+            {"id": "c", "text": "Ask the person contacting you if they're a scammer"},
+            {"id": "d", "text": "Send a small amount to test"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "The safest answer to uncertainty is 'no.' Legitimate opportunities don't require instant decisions. Take time to research, ask in trusted communities, and verify through official channels. Missing a scam is better than falling for one."
+        },
+        {
+          "id": "m1-q15",
+          "question": "What phrase should IMMEDIATELY trigger suspicion in crypto?",
+          "options": [
+            {"id": "a", "text": "'This is not financial advice'"},
+            {"id": "b", "text": "'Send me your seed phrase to verify your wallet'"},
+            {"id": "c", "text": "'Do your own research'"},
+            {"id": "d", "text": "'Gas fees are high right now'"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Anyone asking for your seed phrase is 100% trying to steal from you. There is NO legitimate reason anyone would ever need your seed phrase. No support team, no airdrop, no verification. Never share it."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-02",
+      "moduleNumber": 2,
+      "title": "Protecting Your Assets",
+      "description": "Password hygiene, 2FA, hardware wallets, and secure seed phrase storage",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m2-q1",
+          "question": "What makes a strong password for crypto accounts?",
+          "options": [
+            {"id": "a", "text": "Your birthday - it's easy to remember"},
+            {"id": "b", "text": "Long, random, unique for each site, and stored in a password manager"},
+            {"id": "c", "text": "The same password for everything - one good one is enough"},
+            {"id": "d", "text": "'password123' - it meets basic requirements"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Strong passwords are at least 16+ characters, random, and unique for every account. A password manager generates and stores them securely. If one site is breached, unique passwords prevent other accounts from being compromised."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Why should you never use the same password for your email and your crypto exchange?",
+          "options": [
+            {"id": "a", "text": "It doesn't matter - reusing passwords is fine"},
+            {"id": "b", "text": "If one account is breached, hackers can access your email to reset your exchange password"},
+            {"id": "c", "text": "Emails don't need passwords"},
+            {"id": "d", "text": "Exchanges block reused passwords"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Your email is often the 'master key' - it's used for password resets. If hackers get your email password, they can reset other accounts. Compromising both your email AND exchange with one password is catastrophic."
+        },
+        {
+          "id": "m2-q3",
+          "question": "What is two-factor authentication (2FA)?",
+          "options": [
+            {"id": "a", "text": "Using two different passwords"},
+            {"id": "b", "text": "Requiring a second verification step (like a phone code) in addition to your password"},
+            {"id": "c", "text": "Having two people approve transactions"},
+            {"id": "d", "text": "Using two different exchanges"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "2FA adds a second 'factor' to prove it's you: something you know (password) plus something you have (phone app code or hardware key). Even if hackers steal your password, they can't get in without the second factor."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Why is SMS-based 2FA considered less secure than authenticator apps?",
+          "options": [
+            {"id": "a", "text": "SMS is actually more secure"},
+            {"id": "b", "text": "Hackers can steal your phone number through 'SIM swapping' and receive your codes"},
+            {"id": "c", "text": "SMS is slower"},
+            {"id": "d", "text": "Authenticator apps cost money"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "In SIM swapping, attackers convince your phone carrier to transfer your number to their SIM card. They then receive your SMS codes. Authenticator apps (Google Authenticator, Authy) keep codes on your device, making this attack impossible."
+        },
+        {
+          "id": "m2-q5",
+          "question": "What is a hardware security key like YubiKey?",
+          "options": [
+            {"id": "a", "text": "A USB drive for storing files"},
+            {"id": "b", "text": "A physical device that proves your identity when you plug it in or tap it"},
+            {"id": "c", "text": "A hardware wallet"},
+            {"id": "d", "text": "A key to a physical safe"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Security keys are physical devices used for authentication. You plug them in or tap them to prove you're present. They can't be phished remotely - someone would need the physical key. Very secure for high-value accounts."
+        },
+        {
+          "id": "m2-q6",
+          "question": "What should you NEVER do with your crypto seed phrase?",
+          "options": [
+            {"id": "a", "text": "Write it down"},
+            {"id": "b", "text": "Store it digitally (screenshots, cloud storage, notes apps) or share it with anyone"},
+            {"id": "c", "text": "Store multiple copies in secure locations"},
+            {"id": "d", "text": "Memorize it as an additional backup"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Digital storage can be hacked remotely - cloud breaches, malware, etc. Sharing it with anyone gives them full control of your funds. Keep it offline, physical, and secret. Multiple secure physical copies are okay."
+        },
+        {
+          "id": "m2-q7",
+          "question": "What is a 'metal seed phrase backup' and why use one?",
+          "options": [
+            {"id": "a", "text": "A cryptocurrency about metal"},
+            {"id": "b", "text": "Stamping your seed words into metal for fire/water/time resistance"},
+            {"id": "c", "text": "A heavy wallet"},
+            {"id": "d", "text": "A metal box for paper backups"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Paper can burn, get wet, or degrade. Metal seed backups (steel plates with stamped letters) survive fires, floods, and time. For long-term storage of significant funds, metal backups provide excellent durability."
+        },
+        {
+          "id": "m2-q8",
+          "question": "Why should you test your seed phrase backup BEFORE adding significant funds?",
+          "options": [
+            {"id": "a", "text": "It's unnecessary"},
+            {"id": "b", "text": "To verify you wrote it down correctly and can actually restore your wallet"},
+            {"id": "c", "text": "To warm up the blockchain"},
+            {"id": "d", "text": "Exchanges require proof of backup"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A typo in your seed phrase makes it useless. Test by restoring your wallet before depositing funds. Discovering an error after you've added $10,000 is much worse than finding it early."
+        },
+        {
+          "id": "m2-q9",
+          "question": "What is the 'principle of least privilege' for crypto security?",
+          "options": [
+            {"id": "a", "text": "Only wealthy people should use crypto"},
+            {"id": "b", "text": "Only give wallets/contracts the minimum permissions they need, and only connect to trusted sites"},
+            {"id": "c", "text": "Use the simplest wallet available"},
+            {"id": "d", "text": "Keep transactions as small as possible"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Don't connect your main wallet to random sites. Don't give unlimited token approvals. Use a separate 'burner' wallet for experiments. Limit what can go wrong by limiting access and permissions."
+        },
+        {
+          "id": "m2-q10",
+          "question": "What is a 'burner wallet' and when should you use one?",
+          "options": [
+            {"id": "a", "text": "A wallet you delete after each use"},
+            {"id": "b", "text": "A separate wallet with minimal funds for testing new sites or risky activities"},
+            {"id": "c", "text": "A wallet that destroys coins"},
+            {"id": "d", "text": "An illegal wallet type"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "A burner wallet is separate from your main holdings. Use it for trying new DeFi apps, minting unknown NFTs, or anything risky. If something goes wrong, you only lose what's in that wallet, not your main funds."
+        },
+        {
+          "id": "m2-q11",
+          "question": "Your friend asks to see your seed phrase because they're 'curious how it looks.' What should you do?",
+          "options": [
+            {"id": "a", "text": "Show them - friends are trustworthy"},
+            {"id": "b", "text": "Never share it, even with friends - show them an example online instead"},
+            {"id": "c", "text": "Show just a few words"},
+            {"id": "d", "text": "Write it down for them"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Even trusted people can accidentally compromise your seed phrase (photos, notes). And relationships change. If they're curious about the format, show an example online. Your actual seed phrase should stay 100% private."
+        },
+        {
+          "id": "m2-q12",
+          "question": "How often should you check your token approvals?",
+          "options": [
+            {"id": "a", "text": "Never - approvals are set once and forget"},
+            {"id": "b", "text": "Periodically review and revoke unnecessary approvals, especially for unused platforms"},
+            {"id": "c", "text": "Only after losing funds"},
+            {"id": "d", "text": "Every hour"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Old approvals can become security risks if a protocol is compromised. Periodically review your approvals (using tools like revoke.cash) and revoke ones you no longer need. It's good security hygiene."
+        },
+        {
+          "id": "m2-q13",
+          "question": "What should you do if you accidentally shared your seed phrase?",
+          "options": [
+            {"id": "a", "text": "Nothing - it's probably fine"},
+            {"id": "b", "text": "Immediately move all funds to a new wallet with a new seed phrase"},
+            {"id": "c", "text": "Change your email password"},
+            {"id": "d", "text": "Report it to the police"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Once a seed phrase is exposed, assume it's compromised. Create a brand new wallet, write down the new seed phrase securely, and transfer all assets immediately. The old wallet should be considered permanently unsafe."
+        },
+        {
+          "id": "m2-q14",
+          "question": "Why is keeping your devices updated important for crypto security?",
+          "options": [
+            {"id": "a", "text": "Updates just add new features"},
+            {"id": "b", "text": "Updates patch security vulnerabilities that could be exploited to steal your crypto"},
+            {"id": "c", "text": "Old devices can't hold crypto"},
+            {"id": "d", "text": "Updates aren't important"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Software updates often fix security holes. Hackers exploit known vulnerabilities in outdated software. Keeping your OS, browser, wallet apps, and security software updated closes these attack vectors."
+        },
+        {
+          "id": "m2-q15",
+          "question": "What is 'social engineering' in the context of crypto security?",
+          "options": [
+            {"id": "a", "text": "Building social networks for crypto"},
+            {"id": "b", "text": "Manipulating people psychologically to reveal information or take actions that compromise security"},
+            {"id": "c", "text": "Engineering social media platforms"},
+            {"id": "d", "text": "A type of blockchain technology"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Social engineering attacks target human psychology, not technology. Creating urgency, impersonating authority, or exploiting trust to get you to share credentials or approve malicious transactions. The human is often the weakest link."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-03",
+      "moduleNumber": 3,
+      "title": "Smart Decision Making",
+      "description": "DYOR basics, recognizing red flags, and knowing when to ask for help",
+      "passingScore": 70,
+      "pointsBase": 100,
+      "pointsPerfect": 50,
+      "questions": [
+        {
+          "id": "m3-q1",
+          "question": "What does 'DYOR' mean and why is it important?",
+          "options": [
+            {"id": "a", "text": "Do Your Own Research - because you're responsible for your investment decisions"},
+            {"id": "b", "text": "Don't Yield On Requests - a negotiation tactic"},
+            {"id": "c", "text": "Deposit Your Own Resources - a banking term"},
+            {"id": "d", "text": "A cryptocurrency token"}
+          ],
+          "correctAnswer": "a",
+          "explanation": "DYOR means verifying information yourself rather than blindly trusting others. In crypto, you're your own bank. No one will reimburse bad decisions. Understanding what you invest in helps avoid scams and make better choices."
+        },
+        {
+          "id": "m3-q2",
+          "question": "A project has an anonymous team. Is this a red flag?",
+          "options": [
+            {"id": "a", "text": "No - all crypto projects have anonymous teams"},
+            {"id": "b", "text": "Potentially yes - while some legitimate projects have anonymous teams, it makes accountability harder if something goes wrong"},
+            {"id": "c", "text": "No - anonymous is more secure"},
+            {"id": "d", "text": "It guarantees the project is a scam"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Anonymous teams can't be held accountable and can disappear easily. Some legitimate projects (like Bitcoin) started anonymously, but for newer projects, it's an additional risk factor to consider alongside other research."
+        },
+        {
+          "id": "m3-q3",
+          "question": "You find a project with incredible promises but no working product. What should this tell you?",
+          "options": [
+            {"id": "a", "text": "Get in early before the product launches!"},
+            {"id": "b", "text": "Be cautious - promises without delivery are a major red flag"},
+            {"id": "c", "text": "All crypto projects start this way"},
+            {"id": "d", "text": "The product doesn't matter"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Vaporware - projects with big promises but no working product - is a huge red flag. Legitimate projects show progress, have testable products, or clear roadmaps with delivered milestones. Promises alone mean nothing."
+        },
+        {
+          "id": "m3-q4",
+          "question": "What is a 'whitepaper' in crypto?",
+          "options": [
+            {"id": "a", "text": "A blank page for notes"},
+            {"id": "b", "text": "A document explaining the project's technology, purpose, and tokenomics"},
+            {"id": "c", "text": "A government regulation document"},
+            {"id": "d", "text": "A type of wallet"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Whitepapers explain what a project does, how it works, and its economic model. They can be technical but reading them helps understand what you're investing in. Copied or nonsensical whitepapers are red flags."
+        },
+        {
+          "id": "m3-q5",
+          "question": "A new token claims to be 'the next Bitcoin' with guaranteed 1000x returns. How should you evaluate this?",
+          "options": [
+            {"id": "a", "text": "Invest immediately - you could be rich"},
+            {"id": "b", "text": "Heavy skepticism - such claims are classic scam tactics, and legitimate projects don't guarantee returns"},
+            {"id": "c", "text": "Invest 50% of your savings as a test"},
+            {"id": "d", "text": "Trust influencers promoting it"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Legitimate investments never guarantee returns. 'Next Bitcoin' and '1000x guaranteed' are manipulation tactics. Bitcoin's success was unexpected; nothing is guaranteed to replicate it. Extraordinary claims require extraordinary evidence."
+        },
+        {
+          "id": "m3-q6",
+          "question": "What does 'tokenomics' mean and why should you understand it?",
+          "options": [
+            {"id": "a", "text": "Token economics - how tokens are distributed, what creates value/demand, and incentive structures"},
+            {"id": "b", "text": "The study of tokens under microscopes"},
+            {"id": "c", "text": "A type of investment strategy"},
+            {"id": "d", "text": "It's not important for investors"}
+          ],
+          "correctAnswer": "a",
+          "explanation": "Tokenomics covers supply (how many tokens exist), distribution (who holds them), and utility (what creates demand). Bad tokenomics (team holds 90%, unlimited supply) can make investment worthless regardless of technology."
+        },
+        {
+          "id": "m3-q7",
+          "question": "How can you check if a project's smart contract has been audited?",
+          "options": [
+            {"id": "a", "text": "Ask the project team - they always tell the truth"},
+            {"id": "b", "text": "Look for publicly available audit reports from reputable firms and verify them directly"},
+            {"id": "c", "text": "Audits don't matter"},
+            {"id": "d", "text": "All contracts are automatically audited"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Reputable audit firms publish their reports. Check the auditor's website to confirm, not just the project's claims. Note: audits reduce but don't eliminate risk - audited projects have still been exploited."
+        },
+        {
+          "id": "m3-q8",
+          "question": "A project has a small, tight-knit community that aggressively attacks any critics. What might this indicate?",
+          "options": [
+            {"id": "a", "text": "A passionate, dedicated community"},
+            {"id": "b", "text": "Potentially a cult-like environment where critical thinking is discouraged - a warning sign"},
+            {"id": "c", "text": "The project is definitely successful"},
+            {"id": "d", "text": "Normal crypto behavior"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Healthy communities welcome questions and constructive criticism. Echo chambers that attack skeptics often indicate either a scam or an unhealthy investment environment. Diversity of opinion is healthy."
+        },
+        {
+          "id": "m3-q9",
+          "question": "What is the 'sunk cost fallacy' in investing?",
+          "options": [
+            {"id": "a", "text": "Only investing in shipping companies"},
+            {"id": "b", "text": "Continuing to hold or invest more because you've already lost money, rather than cutting losses"},
+            {"id": "c", "text": "A profitable trading strategy"},
+            {"id": "d", "text": "Diversifying investments"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Sunk cost fallacy: 'I've already lost $5,000, I can't sell now - I need to make it back.' This leads to throwing good money after bad. Past losses don't change future prospects. Evaluate based on current situation, not past losses."
+        },
+        {
+          "id": "m3-q10",
+          "question": "When is the WORST time to make an investment decision?",
+          "options": [
+            {"id": "a", "text": "On a Tuesday"},
+            {"id": "b", "text": "When you're emotional - excited, panicked, greedy, or fearful"},
+            {"id": "c", "text": "During market hours"},
+            {"id": "d", "text": "In the morning"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Strong emotions cloud judgment. FOMO (fear of missing out) leads to buying at peaks. Panic leads to selling at bottoms. Make decisions when calm. Have a plan before emotions hit, and stick to it."
+        },
+        {
+          "id": "m3-q11",
+          "question": "What does 'Never invest more than you can afford to lose' really mean?",
+          "options": [
+            {"id": "a", "text": "A boring suggestion you can ignore"},
+            {"id": "b", "text": "Crypto is volatile - only invest money that wouldn't devastate you if it went to zero"},
+            {"id": "c", "text": "You should lose all your money"},
+            {"id": "d", "text": "Rich people's advice that doesn't apply to others"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Crypto can drop 80%+ or go to zero. Investing rent money or emergency funds is reckless. If losing the investment would cause serious financial problems, you're investing too much. Start small, stay within means."
+        },
+        {
+          "id": "m3-q12",
+          "question": "Where are good places to ask crypto questions and learn?",
+          "options": [
+            {"id": "a", "text": "Random DMs from strangers offering help"},
+            {"id": "b", "text": "Official project Discords/forums, established crypto communities, and educational platforms"},
+            {"id": "c", "text": "Anyone who promises to help you make money"},
+            {"id": "d", "text": "Social media comments sections only"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Stick to official channels and established communities. Be skeptical of unsolicited help. Quality communities welcome questions without pushing specific investments. Beware of 'helpful' strangers - many are scammers."
+        },
+        {
+          "id": "m3-q13",
+          "question": "A friend made huge returns on a crypto project and urges you to invest. What should you do?",
+          "options": [
+            {"id": "a", "text": "Invest immediately - friends wouldn't steer you wrong"},
+            {"id": "b", "text": "Thank them but do your own research before deciding - past returns don't guarantee future results"},
+            {"id": "c", "text": "Invest more than they did"},
+            {"id": "d", "text": "Borrow money to invest"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Friends mean well but may not understand the full picture. They might have gotten lucky. Their risk tolerance isn't yours. Always do your own research and make decisions based on your own situation, not others' results."
+        },
+        {
+          "id": "m3-q14",
+          "question": "What is a healthy portfolio approach for someone new to crypto?",
+          "options": [
+            {"id": "a", "text": "Put everything into the newest, most exciting token"},
+            {"id": "b", "text": "Start small with established assets, learn the space, then gradually expand if desired"},
+            {"id": "c", "text": "Use maximum leverage to maximize gains"},
+            {"id": "d", "text": "Follow whatever influencers recommend"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Start small with major assets (Bitcoin, Ethereum) to learn how crypto works with less risk. As you gain experience and knowledge, you can explore other opportunities. Don't dive into complex/risky investments without foundations."
+        },
+        {
+          "id": "m3-q15",
+          "question": "If you've been scammed in crypto, what should you do?",
+          "options": [
+            {"id": "a", "text": "Keep it secret out of embarrassment"},
+            {"id": "b", "text": "Document everything, report to platforms and potentially authorities, warn others, and learn from it"},
+            {"id": "c", "text": "Try to get revenge"},
+            {"id": "d", "text": "Immediately invest more to make up losses"}
+          ],
+          "correctAnswer": "b",
+          "explanation": "Don't be ashamed - scams are sophisticated and happen to smart people. Document evidence, report to relevant platforms and possibly authorities, warn others to prevent more victims, and learn to protect yourself better."
+        }
+      ]
+    }
+  ]
+}
