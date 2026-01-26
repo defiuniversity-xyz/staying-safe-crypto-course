@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 3
-lesson: 12
-title: "Creating Your Security Routine"
-description: "Building consistent habits that protect your crypto over time"
----
-
 # Creating Your Security Routine
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_12/staying-safe-crypto_12_header.png)

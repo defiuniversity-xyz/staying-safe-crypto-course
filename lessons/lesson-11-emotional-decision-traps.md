@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 3
-lesson: 11
-title: "Emotional Decision Traps"
-description: "How emotions lead to costly mistakes and how to avoid them"
----
-
 # Emotional Decision Traps
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_11/staying-safe-crypto_11_header.png)

@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 1
-lesson: 3
-title: "Rug Pulls and Exit Scams"
-description: "When project creators disappear with investors' money"
----
-
 # Rug Pulls and Exit Scams
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_03/staying-safe-crypto_03_header.png)

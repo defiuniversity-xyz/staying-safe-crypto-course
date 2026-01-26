@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 2
-lesson: 7
-title: "Social Media Red Flags"
-description: "Recognizing scam patterns on Twitter, Discord, Telegram, and other platforms"
----
-
 # Social Media Red Flags
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_07/staying-safe-crypto_07_header.png)

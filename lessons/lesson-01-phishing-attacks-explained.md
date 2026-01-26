@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 1
-lesson: 1
-title: "Phishing Attacks Explained"
-description: "How scammers create fake websites and messages to steal your crypto"
----
-
 # Phishing Attacks Explained
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_01/staying-safe-crypto_01_header.png)

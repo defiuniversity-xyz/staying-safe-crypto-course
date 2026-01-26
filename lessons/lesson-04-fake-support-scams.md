@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 1
-lesson: 4
-title: "Fake Support Scams"
-description: "How scammers impersonate customer support to steal your crypto"
----
-
 # Fake Support Scams
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_04/staying-safe-crypto_04_header.png)

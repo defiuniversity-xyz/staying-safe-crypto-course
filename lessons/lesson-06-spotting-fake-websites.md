@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 2
-lesson: 6
-title: "Spotting Fake Websites"
-description: "How to verify you're on the real site before connecting your wallet"
----
-
 # Spotting Fake Websites
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_06/staying-safe-crypto_06_header.png)

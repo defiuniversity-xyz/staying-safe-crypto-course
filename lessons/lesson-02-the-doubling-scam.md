@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 1
-lesson: 2
-title: "The Doubling Scam"
-description: "How 'send X, receive 2X' scams work and why they never deliver"
----
-
 # The Doubling Scam
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_02/staying-safe-crypto_02_header.png)

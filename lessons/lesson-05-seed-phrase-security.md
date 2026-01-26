@@ -1,11 +1,3 @@
----
-course: staying-safe-crypto
-module: 2
-lesson: 5
-title: "Seed Phrase Security"
-description: "Best practices for protecting your most critical secret"
----
-
 # Seed Phrase Security
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_05/staying-safe-crypto_05_header.png)
