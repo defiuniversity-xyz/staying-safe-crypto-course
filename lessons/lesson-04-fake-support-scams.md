@@ -1,4 +1,16 @@
-# Fake Support Scams
+---
+module: 1
+lesson_number: 4
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-04/audio/lesson4-Fake_Support_DMs_Drain_Your_Wallet.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-04/video/lesson4-Defeating_Fake_Support_Scams.mp4" %}
+
+# Lesson 4: Fake Support Scams
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_04/staying-safe-crypto_04_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## The Imposter Tech Support Call
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_04/staying-safe-crypto_04_inline_analogy.png)
+
 
 You've probably heard of this scam: phone rings, "This is Microsoft. We've detected a virus on your computer. Let me help you fix it." They're not from Microsoft—they want remote access to steal from you.
 
@@ -20,6 +34,8 @@ They're not from MetaMask. They want your seed phrase or wallet access.
 ---
 
 ## How Fake Support Scams Work
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_04/staying-safe-crypto_04_infographic.png)
+
 
 **Step 1: Find a Target**
 Scammers monitor:

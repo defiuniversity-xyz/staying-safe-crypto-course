@@ -1,4 +1,16 @@
-# Spotting Fake Websites
+---
+module: 2
+lesson_number: 6
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-06/audio/lesson6-The_Secure_Lock_Icon_Means_Nothing.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-06/video/lesson6-Spotting_Fake_Websites.mp4" %}
+
+# Lesson 6: Spotting Fake Websites
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_06/staying-safe-crypto_06_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Checking the Storefront Address
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_06/staying-safe-crypto_06_inline_analogy.png)
+
 
 When meeting someone at a new store, you double-check the address:
 - "Meet me at 123 Main Street"

@@ -1,4 +1,16 @@
-# Emotional Decision Traps
+---
+module: 3
+lesson_number: 11
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-11/audio/lesson11-Stop_Trading_Like_a_Hungry_Shopper.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-11/video/lesson11-Emotional_Trading_Traps.mp4" %}
+
+# Lesson 11: Emotional Decision Traps
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_11/staying-safe-crypto_11_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Shopping When Hungry
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_11/staying-safe-crypto_11_inline_analogy.png)
+
 
 Ever gone grocery shopping hungry? You buy things you don't need, more than you planned, and stuff that looked good in the moment but you regret later.
 
@@ -20,6 +34,8 @@ The solution isn't willpower in the moment. It's recognizing emotional states an
 ---
 
 ## FOMO (Fear of Missing Out)
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_11/staying-safe-crypto_11_infographic.png)
+
 
 **What it feels like:**
 "Everyone's making money! I need to get in NOW or I'll miss it!"

@@ -1,4 +1,16 @@
-# Research Before Buying (DYOR)
+---
+module: 3
+lesson_number: 10
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-10/audio/lesson10-Stop_Being_Crypto_Exit_Liquidity.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-10/video/lesson10-The_Architect_of_Due_Diligence.mp4" %}
+
+# Lesson 10: Research Before Buying DYOR
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_10/staying-safe-crypto_10_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Reading Reviews Before Buying
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_10/staying-safe-crypto_10_inline_analogy.png)
+
 
 Before buying anything significant, you probably:
 - Read reviews from multiple sources
@@ -28,6 +42,8 @@ The difference: crypto is newer, less regulated, and has more scams. Research is
 ---
 
 ## What to Research
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_10/staying-safe-crypto_10_infographic.png)
+
 
 ### The Team
 - Who's building this? Are they real people?

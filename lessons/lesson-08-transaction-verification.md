@@ -1,4 +1,16 @@
-# Transaction Verification
+---
+module: 2
+lesson_number: 8
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-08/audio/lesson8-Token_Approvals_Can_Drain_Your_Entire_Wallet.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-08/video/lesson8-Transaction_Verification.mp4" %}
+
+# Lesson 8: Transaction Verification
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_08/staying-safe-crypto_08_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Double-Checking the Shipping Address
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_08/staying-safe-crypto_08_inline_analogy.png)
+
 
 Before mailing a package, you verify:
 - Is this the right address?
@@ -24,6 +38,8 @@ Clicking "approve" without checking is like mailing a package without looking at
 ---
 
 ## What You're Actually Approving
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_08/staying-safe-crypto_08_infographic.png)
+
 
 When your wallet pops up asking to approve a transaction, you might be approving:
 

@@ -1,4 +1,16 @@
-# Creating Your Security Routine
+---
+module: 3
+lesson_number: 12
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-12/audio/lesson12-Bulletproof_Your_Crypto_Security_Routine.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-12/video/lesson12-Crypto_Security_Routine.mp4" %}
+
+# Lesson 12: Creating Your Security Routine
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_12/staying-safe-crypto_12_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Locking Doors Before Bed
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_12/staying-safe-crypto_12_inline_analogy.png)
+
 
 Every night, you probably:
 - Lock the front door
@@ -22,6 +36,8 @@ Crypto security should become the same: automatic habits that protect you withou
 ---
 
 ## Daily Habits
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_12/staying-safe-crypto_12_infographic.png)
+
 
 **Before any transaction:**
 - Verify you're on the correct site (check URL)

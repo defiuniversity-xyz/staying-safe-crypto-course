@@ -1,4 +1,16 @@
-# Rug Pulls and Exit Scams
+---
+module: 1
+lesson_number: 3
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-03/audio/lesson3-How_Scammers_Architect_Crypto_Rug_Pulls.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-03/video/lesson3-Crypto__Spot_a_Rug_Pull.mp4" %}
+
+# Lesson 3: Rug Pulls and Exit Scams
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_03/staying-safe-crypto_03_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## The Store That Closes Overnight
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_03/staying-safe-crypto_03_inline_analogy.png)
+
 
 Imagine a new store opens in your town:
 - Grand opening with big promises
@@ -22,6 +36,8 @@ This is exactly what rug pulls are in crypto. Projects launch with exciting prom
 ---
 
 ## How Rug Pulls Work
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_03/staying-safe-crypto_03_infographic.png)
+
 
 **Step 1: Create the Project**
 Scammers create a token, NFT collection, or DeFi protocol. It might have:

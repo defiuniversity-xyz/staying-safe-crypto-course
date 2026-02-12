@@ -1,4 +1,16 @@
-# Phishing Attacks Explained
+---
+module: 1
+lesson_number: 1
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-01/audio/lesson1-How_Pixel-Perfect_Phishing_Drains_Crypto_Wallets.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-01/video/lesson1-Defeating_Phishing_Attacks.mp4" %}
+
+# Lesson 1: Phishing Attacks Explained
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_01/staying-safe-crypto_01_header.png)
 

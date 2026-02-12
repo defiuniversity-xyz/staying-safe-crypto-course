@@ -1,4 +1,16 @@
-# Only Invest What You Can Lose
+---
+module: 3
+lesson_number: 9
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-09/audio/lesson9-Why_Crypto_Belongs_in_the_Attic.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-09/video/lesson9-The_Golden_Rule_of_Crypto.mp4" %}
+
+# Lesson 9: Only Invest What You Can Lose
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_09/staying-safe-crypto_09_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Emergency Fund First
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_09/staying-safe-crypto_09_inline_analogy.png)
+
 
 Imagine your financial priorities as building a house:
 
@@ -23,6 +37,8 @@ Cryptocurrency belongs in the "attic"—optional money that wouldn't devastate y
 ---
 
 ## Why This Matters for Crypto
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_09/staying-safe-crypto_09_infographic.png)
+
 
 Cryptocurrency is volatile:
 - 50%+ drops happen regularly

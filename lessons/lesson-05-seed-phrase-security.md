@@ -1,4 +1,16 @@
-# Seed Phrase Security
+---
+module: 2
+lesson_number: 5
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-05/audio/lesson5-How_Fake_Support_Drains_Your_Wallet.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-05/video/lesson5-Defeating_Fake_Support_Scams.mp4" %}
+
+# Lesson 5: Seed Phrase Security
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_05/staying-safe-crypto_05_header.png)
 

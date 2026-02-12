@@ -1,4 +1,16 @@
-# Social Media Red Flags
+---
+module: 2
+lesson_number: 7
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-07/audio/lesson7-Outsmarting_Crypto_Predators_On_Social_Media.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-07/video/lesson7-Crypto_Scams_on_Social_Media.mp4" %}
+
+# Lesson 7: Social Media Red Flags
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_07/staying-safe-crypto_07_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Stranger Danger, Online Edition
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_07/staying-safe-crypto_07_inline_analogy.png)
+
 
 As a kid, you learned "stranger danger"—be careful with people you don't know offering things.
 
@@ -22,6 +36,8 @@ The context is different, but the principles are identical.
 ---
 
 ## Platform-Specific Scams
+![Infographic](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_07/staying-safe-crypto_07_infographic.png)
+
 
 ### Twitter/X
 - Fake accounts impersonating celebrities or projects

@@ -1,4 +1,16 @@
-# The Doubling Scam
+---
+module: 1
+lesson_number: 2
+course: staying-safe-crypto
+---
+
+## 🎧 Lesson Podcast
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-02/audio/lesson2-The_Fake_Elon_Musk_Crypto_Giveaway_Trap.m4a" %}
+
+## 🎬 Video Overview
+{% embed url="https://storage.googleapis.com/staying-safe-crypto-media/lesson-02/video/lesson2-The_Crypto_Doubling_Scam.mp4" %}
+
+# Lesson 2: The Doubling Scam
 
 ![Header](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_02/staying-safe-crypto_02_header.png)
 
@@ -8,6 +20,8 @@
 ---
 
 ## Too-Good-to-Be-True Mail Offers
+![Inline Analogy](https://storage.googleapis.com/staying-safe-crypto-media/images/lesson_02/staying-safe-crypto_02_inline_analogy.png)
+
 
 Remember those mail offers? "Send us $10 and we'll send you $100!" Obviously a scam—why would anyone do that?
 
